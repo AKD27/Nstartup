@@ -20,7 +20,7 @@ const ConsultantProfile = ({ className = "" }) => {
                   />
                   <div className="flex flex-row items-start justify-start py-[0rem] px-[2rem]">
                     <h3 className="m-0 relative text-inherit font-normal font-inherit inline-block min-w-[4.625rem] z-[1] mq450:text-[1.125rem] mq750:text-[1.5rem]">
-                      Skills
+                      <b>Skills</b>
                     </h3>
                   </div>
                 </div>
@@ -28,11 +28,11 @@ const ConsultantProfile = ({ className = "" }) => {
               <div className="flex-1 flex flex-col items-start justify-start gap-[0.75rem] min-w-[13.75rem] max-w-full">
                 <div className="w-[10.875rem] flex flex-col items-start justify-start">
                   <h3 className="m-0 self-stretch relative text-inherit font-normal font-inherit z-[1] mq450:text-[1.125rem] mq750:text-[1.5rem]">
-                    Ridhima Sen
+                  <b>RidhimaSen</b>
                   </h3>
                   <div className="self-stretch flex flex-row items-start justify-start py-[0rem] pr-[0.312rem] pl-[0.125rem] text-[1.25rem] text-darkslategray font-aktivgrotesk-regular">
                     <div className="flex-1 relative z-[2] mq450:text-[1rem]">
-                      Consulting Leader
+                    Consulting Leader
                     </div>
                   </div>
                 </div>
@@ -129,16 +129,16 @@ const ConsultantProfile = ({ className = "" }) => {
                         <div className="flex-1 flex flex-row items-start justify-between max-w-full gap-[1.25rem] mq450:flex-wrap">
                           <div className="flex flex-col items-start justify-start pt-[0.312rem] px-[0rem] pb-[0rem]">
                             <div className="relative inline-block min-w-[3.688rem] whitespace-nowrap z-[1] mq450:text-[1rem]">
-                              ₹1000
+                              <b>₹1000</b>
                             </div>
                           </div>
                           <div className="flex flex-col items-start justify-start pt-[0.312rem] px-[0rem] pb-[0rem]">
                             <div className="relative inline-block min-w-[3.688rem] whitespace-nowrap z-[1] mq450:text-[1rem]">
-                              ₹1500
+                              <b>₹1500</b>
                             </div>
                           </div>
                           <div className="w-[5.063rem] relative inline-block min-w-[5.063rem] z-[1] mq450:text-[1rem]">
-                            Mon-Sat
+                            <b>Mon-Sat</b>
                           </div>
                         </div>
                       </div>
@@ -149,7 +149,7 @@ const ConsultantProfile = ({ className = "" }) => {
                   <div className="flex-1 rounded-21xl bg-primary flex flex-row items-start justify-end pt-[0.562rem] px-[3.5rem] pb-[0.625rem] whitespace-nowrap z-[1] mq450:pl-[1.25rem] mq450:pr-[1.25rem] mq450:box-border">
                     <div className="h-[3.438rem] w-[18.75rem] relative rounded-21xl bg-primary hidden" />
                     <div className="w-[9.813rem] relative inline-block shrink-0 z-[2]">
-                      Book Now
+                      <button className="tt">Book Now </button>
                     </div>
                   </div>
                 </div>
@@ -161,27 +161,29 @@ const ConsultantProfile = ({ className = "" }) => {
           <div className="flex-1 flex flex-row items-end justify-center gap-[0.875rem] max-w-full mq1225:flex-wrap">
             <div className="w-[15.25rem] rounded-21xl bg-lavenderblush box-border flex flex-row items-start justify-start pt-[0.687rem] px-[1.437rem] pb-[0.625rem] whitespace-nowrap z-[1] border-[2px] border-solid border-whitesmoke-200">
               <div className="h-[3.125rem] w-[15.25rem] relative rounded-21xl bg-lavenderblush box-border hidden border-[2px] border-solid border-whitesmoke-200" />
-              <div className="flex-1 relative z-[2]">Marketing Consulting</div>
+              <div className="flex-1 relative z-[2] ">
+                <div className="uu">Marketing Consulting </div>
+                </div>
             </div>
             <div className="flex-1 flex flex-col items-start justify-start py-[0rem] pr-[0.5rem] pl-[0rem] box-border min-w-[10.25rem] mq1225:flex-1">
               <div className="self-stretch rounded-21xl bg-lavenderblush flex flex-row items-start justify-start pt-[0.687rem] px-[1.437rem] pb-[0.625rem] whitespace-nowrap z-[1] border-[2px] border-solid border-whitesmoke-200">
                 <div className="h-[3.125rem] w-[15.25rem] relative rounded-21xl bg-lavenderblush box-border hidden border-[2px] border-solid border-whitesmoke-200" />
                 <div className="w-[11.938rem] relative inline-block z-[2]">
-                  Accounts Consulting
+                <div className="uu">Accounts Consulting </div>
                 </div>
               </div>
             </div>
             <div className="w-[15.25rem] rounded-21xl bg-lavenderblush box-border flex flex-row items-start justify-start pt-[0.687rem] px-[1.437rem] pb-[0.625rem] whitespace-nowrap z-[1] border-[2px] border-solid border-whitesmoke-200">
               <div className="h-[3.125rem] w-[15.25rem] relative rounded-21xl bg-lavenderblush box-border hidden border-[2px] border-solid border-whitesmoke-200" />
               <div className="w-[11.625rem] relative inline-block z-[2]">
-                Buisness Consulting
+              <div className="uu">Buisness Consulting </div>
               </div>
             </div>
             <div className="flex-[0.9683] flex flex-col items-start justify-end pt-[0rem] pb-[0.125rem] pr-[1rem] pl-[0rem] box-border min-w-[10.563rem] mq1225:flex-1">
               <div className="self-stretch rounded-21xl bg-lavenderblush flex flex-row items-start justify-start pt-[0.687rem] px-[1.437rem] pb-[0.625rem] whitespace-nowrap z-[1] border-[2px] border-solid border-whitesmoke-200">
                 <div className="h-[3.125rem] w-[15.25rem] relative rounded-21xl bg-lavenderblush box-border hidden border-[2px] border-solid border-whitesmoke-200" />
                 <div className="w-[11.625rem] relative inline-block z-[2]">
-                  Buisness Consulting
+                <div className="uu">Buisness Consulting </div>
                 </div>
               </div>
             </div>
@@ -189,7 +191,7 @@ const ConsultantProfile = ({ className = "" }) => {
               <div className="self-stretch rounded-21xl bg-lavenderblush flex flex-row items-start justify-start pt-[0.687rem] px-[1.437rem] pb-[0.625rem] whitespace-nowrap z-[1] border-[2px] border-solid border-whitesmoke-200">
                 <div className="h-[3.125rem] w-[15.25rem] relative rounded-21xl bg-lavenderblush box-border hidden border-[2px] border-solid border-whitesmoke-200" />
                 <div className="w-[11.625rem] relative inline-block z-[2]">
-                  Buisness Consulting
+                <div className="uu">Buisness Consulting </div>
                 </div>
               </div>
             </div>

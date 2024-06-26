@@ -16,7 +16,7 @@ const BookingContainer = ({ className = "" }) => {
           />
           <div className="flex flex-row items-start justify-start py-[0rem] pr-[0rem] pl-[0.437rem]">
             <div className="relative inline-block min-w-[6.375rem] z-[1] mq450:text-[1rem]">
-              Booking ID
+              <b>Booking ID</b>
             </div>
           </div>
           <div className="self-stretch flex flex-row items-start justify-start py-[0rem] px-[0.437rem] text-darkslategray font-aktivgrotesk-regular">
@@ -37,7 +37,7 @@ const BookingContainer = ({ className = "" }) => {
             </div>
             <div className="self-stretch flex flex-row items-start justify-start py-[0rem] pr-[0rem] pl-[0.062rem]">
               <div className="flex-1 relative z-[1] mq450:text-[1rem]">
-                Consultation Category
+                <b>Consultation Category</b>
               </div>
             </div>
             <div className="w-[11.938rem] relative font-aktivgrotesk-regular text-darkslategray text-center inline-block z-[1] mq450:text-[1rem]">
@@ -53,7 +53,7 @@ const BookingContainer = ({ className = "" }) => {
                 src="/201@2x.png"
               />
               <div className="self-stretch flex flex-row items-start justify-start py-[0rem] pr-[0rem] pl-[0.562rem]">
-                <div className="flex-1 relative z-[1] mq450:text-[1rem]">{`Session Time & date`}</div>
+                <div className="flex-1 relative z-[1] mq450:text-[1rem]"><b>{`Session Time & date`}</b></div>
               </div>
             </div>
             <div className="w-[11.688rem] flex flex-row items-start justify-start py-[0rem] px-[0.562rem] box-border text-darkslategray">
@@ -87,7 +87,7 @@ const BookingContainer = ({ className = "" }) => {
             <div className="flex-1 flex flex-row items-start justify-start gap-[3.312rem] max-w-full mq450:flex-wrap mq750:gap-[1.625rem]">
               <div className="flex flex-col items-start justify-start gap-[0.375rem]">
                 <div className="w-[8.938rem] relative inline-block z-[1] mq450:text-[1rem]">
-                  Booking Status
+                  <b>Booking Status</b>
                 </div>
                 <div className="rounded-21xl bg-lavender flex flex-row items-start justify-start pt-[0.562rem] px-[1.312rem] pb-[0.5rem] z-[1] text-[1.375rem] text-darkslateblue font-aktivgrotesk-regular">
                   <div className="h-[2.688rem] w-[9.375rem] relative rounded-21xl bg-lavender hidden" />
@@ -99,7 +99,9 @@ const BookingContainer = ({ className = "" }) => {
               <div className="flex-1 flex flex-col items-start justify-start pt-[0.5rem] px-[0rem] pb-[0rem] box-border min-w-[12.188rem] text-[1.5rem] text-primary">
                 <div className="self-stretch rounded-21xl bg-background-color flex flex-row items-start justify-start pt-[0.625rem] px-[4.75rem] pb-[0.687rem] whitespace-nowrap z-[1] border-[2px] border-solid border-primary mq450:pl-[1.25rem] mq450:pr-[1.25rem] mq450:box-border">
                   <div className="h-[3.438rem] w-[18.75rem] relative rounded-21xl bg-background-color box-border hidden border-[2px] border-solid border-primary" />
-                  <div className="flex-1 relative z-[2]">Join Session</div>
+                  <div className="flex-1 relative z-[2]">
+                    <button className="yy">Join Session</button>
+                    </div>
                 </div>
               </div>
             </div>

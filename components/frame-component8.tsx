@@ -11,7 +11,7 @@ const FrameComponent8 = ({ className = "" }) => {
             <div className="self-stretch flex flex-col items-start justify-start gap-[0.812rem] max-w-full">
               <div className="self-stretch flex flex-row items-start justify-start py-[0rem] pr-[0rem] pl-[0.062rem] box-border max-w-full">
                 <h3 className="m-0 flex-1 relative text-inherit font-normal font-inherit inline-block max-w-full mq800:text-[2.375rem] mq450:text-[1.813rem]">
-                  WORK WITH STARTUPS
+                  <b>WORK WITH STARTUPS</b>
                 </h3>
               </div>
               <div className="w-[35.875rem] h-[4.313rem] relative text-[1.25rem] leading-[1.4rem] font-aktivgrotesk-regular inline-block min-h-[4.313rem] max-w-full mq450:text-[1rem]">
@@ -24,7 +24,7 @@ const FrameComponent8 = ({ className = "" }) => {
               <div className="flex-1 rounded-21xl bg-primary flex flex-row items-start justify-center pt-[1.187rem] pb-[1.125rem] pr-[1.25rem] pl-[1.437rem] box-border max-w-full">
                 <div className="h-[4.688rem] w-[27.813rem] relative rounded-21xl bg-primary hidden max-w-full" />
                 <div className="relative inline-block min-w-[6.25rem] z-[1] mq800:text-[1.625rem] mq450:text-[1.188rem]">
-                  Button
+                  <button className= "tt">Button</button>
                 </div>
               </div>
             </div>

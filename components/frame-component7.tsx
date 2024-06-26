@@ -33,7 +33,7 @@ const FrameComponent7 = ({ className = "" }) => {
                       <div className="flex-1 rounded-21xl bg-primary flex flex-row items-start justify-center pt-[0.562rem] px-[1.25rem] pb-[0.5rem]">
                         <div className="h-[3.438rem] w-[18.125rem] relative rounded-21xl bg-primary hidden" />
                         <div className="w-[7.313rem] relative inline-block z-[1] mq800:text-[1.625rem] mq450:text-[1.188rem]">
-                          Explore
+                          <button className="tt">Explore</button>
                         </div>
                       </div>
                     </div>
@@ -54,7 +54,7 @@ const FrameComponent7 = ({ className = "" }) => {
                 <div className="self-stretch flex flex-col items-start justify-start gap-[1.312rem]">
                   <div className="self-stretch flex flex-row items-start justify-start py-[0rem] pr-[3.812rem] pl-[3.875rem] mq450:pl-[1.25rem] mq450:pr-[1.25rem] mq450:box-border">
                     <div className="flex-1 relative mq800:text-[1.625rem] mq450:text-[1.188rem]">
-                      Browse Internship
+                      <b>Browse Internship</b>
                     </div>
                   </div>
                   <div className="self-stretch h-[4.75rem] relative text-[1rem] leading-[1.15rem] font-aktivgrotesk-medium text-center inline-block min-h-[4.75rem]">
@@ -67,7 +67,7 @@ const FrameComponent7 = ({ className = "" }) => {
                   <div className="flex-1 rounded-21xl bg-primary flex flex-row items-start justify-center pt-[0.562rem] pb-[0.5rem] pr-[1.25rem] pl-[1.937rem]">
                     <div className="h-[3.438rem] w-[18.125rem] relative rounded-21xl bg-primary hidden" />
                     <div className="w-[7.313rem] relative inline-block z-[1] mq800:text-[1.625rem] mq450:text-[1.188rem]">
-                      Explore
+                    <button className="tt">Explore</button>
                     </div>
                   </div>
                 </div>
@@ -76,7 +76,7 @@ const FrameComponent7 = ({ className = "" }) => {
           </div>
           <div className="self-stretch flex flex-row items-start justify-end max-w-full text-[2.5rem] font-aktivgrotesk-medium">
             <div className="w-[31.438rem] relative inline-block shrink-0 max-w-full mq800:text-[2rem] mq450:text-[1.5rem]">
-              Key benefits for students?
+              <b>Key benefits for students?</b>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ const FrameComponent7 = ({ className = "" }) => {
               <div className="self-stretch flex flex-col items-start justify-start gap-[1.562rem] max-w-full">
                 <div className="w-[23.188rem] flex flex-row items-start justify-start py-[0rem] px-[1.75rem] box-border max-w-full">
                   <div className="flex-1 relative mq800:text-[1.625rem] mq450:text-[1.188rem]">
-                    Freelancing Projects
+                    <b>Freelancing Projects</b>
                   </div>
                 </div>
                 <div className="self-stretch h-[4.75rem] relative text-[1rem] leading-[1.15rem] font-aktivgrotesk-medium text-center inline-block min-h-[4.75rem]">
@@ -107,7 +107,7 @@ const FrameComponent7 = ({ className = "" }) => {
                 <div className="flex-1 rounded-21xl bg-primary flex flex-row items-start justify-center pt-[0.562rem] pb-[0.5rem] pr-[1.25rem] pl-[1.937rem]">
                   <div className="h-[3.438rem] w-[18.125rem] relative rounded-21xl bg-primary hidden" />
                   <div className="w-[7.313rem] relative inline-block z-[1] mq800:text-[1.625rem] mq450:text-[1.188rem]">
-                    Explore
+                  <button className="tt">Explore</button>
                   </div>
                 </div>
               </div>

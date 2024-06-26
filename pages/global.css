@@ -2610,3 +2610,38 @@ body {
     font-size: var(--font-size-3xl);
   }
 }
+
+.tt {
+width: 400px;
+height: 60px;
+top: 9000px;
+left: 498px;
+gap: 0px;
+border-radius: 50px;
+opacity: 0px;  
+background: #FC1C00;
+color: white;
+
+
+}
+
+.uu {
+  color:#FC1C00;
+}
+
+.yy {
+width: 200px;
+height: 55px;
+top: 954px;
+left: 1123px;
+gap: 0px;
+border-radius: 50px;
+
+opacity: 0px;
+background: #FFFFFF;
+border: 2px solid #FC1C00
+
+}
+
+
+
