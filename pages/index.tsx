@@ -1,6 +1,6 @@
 import FrameComponent1 from "../components/frame-component1";
 import FrameComponent from "../components/frame-component";
-
+import Navbar from "../components/Navbar";
 const DailySpotlightMonthly = () => {
   return (
     <div className="w-full relative bg-whitesmoke-100 overflow-hidden flex flex-row items-start justify-center pt-[24.937rem] pb-[15.437rem] pr-[1.25rem] pl-[2rem] box-border leading-[normal] tracking-[normal]">
