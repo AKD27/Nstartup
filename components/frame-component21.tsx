@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 
 const FrameComponent2 = ({
   className = "",
-  min,
-  propPadding,
-  propGap,
-  propPadding1,
-  propMinWidth,
+  min = "",
+  propPadding = "",
+  propGap= "",
+  propPadding1 = "",
+  propMinWidth = "",
 }) => {
   const sessionIconStyle = useMemo(() => {
     return {

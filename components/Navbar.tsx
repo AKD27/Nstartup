@@ -7,9 +7,8 @@ const Navbar = () => {
         <div className="text-white text-lg font-bold">Brand</div>
         <div className="hidden md:flex space-x-4">
           <a href="/" className="text-white hover:text-gray-200">Home</a>
-          <a href="/job" className="text-white hover:text-gray-200">Job</a>
-          <a href="/profile" className="text-white hover:text-gray-200">Profile</a>
-          <a href="/profile1" className="text-white hover:text-gray-200">Profile1</a>
+          <a href="/job" className="text-white hover:text-gray-200">Job</a>          <a href="/profile1" className="text-white hover:text-gray-200">Profile1</a>
+          <a href="/work" className="text-white hover:text-gray-200">work</a>
         </div>
         <div className="md:hidden">
           <button className="text-white focus:outline-none">

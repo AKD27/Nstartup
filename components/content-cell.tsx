@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import PropTypes from "prop-types";
 
-const ContentCell = ({ className = "", propPadding }) => {
+const ContentCell = ({ className = "", propPadding = "" }) => {
   const contentCellStyle = useMemo(() => {
     return {
       padding: propPadding,

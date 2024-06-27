@@ -10,7 +10,7 @@ const FrameComponent7 = ({ className = "" }) => {
       <div className="w-[81.688rem] flex flex-col items-end justify-start gap-[2.125rem] max-w-full mq750:gap-[1.063rem]">
         <div className="w-[80.563rem] flex flex-row items-start justify-end py-[0rem] px-[0.375rem] box-border max-w-full">
           <div className="flex-1 flex flex-row items-start justify-center gap-[2.625rem] max-w-full lg:flex-wrap mq750:gap-[1.313rem]">
-            <FrameComponent2 min="30 min" />
+            <FrameComponent2/>
             <FrameComponent3 />
             <div className="flex-1 flex flex-col items-start justify-start gap-[2.187rem] min-w-[7.313rem] text-primary">
               <div className="self-stretch rounded-3xs bg-background-color flex flex-row items-start justify-start pt-[1.375rem] px-[1.687rem] pb-[1.625rem] whitespace-nowrap border-[1px] border-solid border-primary">
@@ -27,10 +27,10 @@ const FrameComponent7 = ({ className = "" }) => {
               </div>
             </div>
             <FrameComponent3
-              propPadding="1.5rem 1.5rem 1.5rem 1.875rem"
-              propBackgroundColor="#fff"
-              propBackgroundColor1="#fff"
-              propPadding1="1.5rem 1.5rem 1.5rem 1.875rem"
+              // propPadding="1.5rem 1.5rem 1.5rem 1.875rem"
+              // propBackgroundColor="#fff"
+              // propBackgroundColor1="#fff"
+              // propPadding1="1.5rem 1.5rem 1.5rem 1.875rem"
             />
             <div className="flex-1 flex flex-col items-start justify-start gap-[2.187rem] min-w-[7.625rem]">
               <div className="self-stretch rounded-3xs bg-whitesmoke-200 flex flex-row items-start justify-start pt-[1.812rem] pb-[1.437rem] pr-[1.937rem] pl-[2rem] whitespace-nowrap">
@@ -47,10 +47,10 @@ const FrameComponent7 = ({ className = "" }) => {
               </div>
             </div>
             <FrameComponent3
-              propPadding="1.375rem 1.687rem 1.625rem"
-              propBackgroundColor="#ffeded"
-              propBackgroundColor1="#ffeded"
-              propPadding1="1.375rem 1.687rem 1.625rem"
+              // propPadding="1.375rem 1.687rem 1.625rem"
+              // propBackgroundColor="#ffeded"
+              // propBackgroundColor1="#ffeded"
+              // propPadding1="1.375rem 1.687rem 1.625rem"
             />
           </div>
         </div>
@@ -59,11 +59,11 @@ const FrameComponent7 = ({ className = "" }) => {
           <div className="w-[54.625rem] flex flex-row items-start justify-start py-[0rem] px-[1.5rem] box-border max-w-full">
             <div className="flex-1 flex flex-row items-start justify-start py-[0rem] pr-[0.125rem] pl-[0rem] box-border gap-[2.5rem] max-w-full mq450:gap-[1.25rem] mq1050:flex-wrap">
               <FrameComponent2
-                min="01 hour"
-                propPadding="0.5rem 0rem 0rem"
-                propGap="0.812rem"
-                propPadding1="0.875rem 0rem 0rem"
-                propMinWidth="5.313rem"
+                // min="01 hour"
+                // propPadding="0.5rem 0rem 0rem"
+                // propGap="0.812rem"
+                // propPadding1="0.875rem 0rem 0rem"
+                // propMinWidth="5.313rem"
               />
               <div className="flex-[0.7126] rounded-3xs bg-background-color box-border flex flex-row items-start justify-start py-[1.5rem] pr-[1.625rem] pl-[1.75rem] min-w-[7.313rem] whitespace-nowrap border-[1px] border-solid border-primary mq450:flex-1">
                 <div className="h-[4.75rem] w-[11.25rem] relative rounded-3xs bg-background-color box-border hidden border-[1px] border-solid border-primary" />

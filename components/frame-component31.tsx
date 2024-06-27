@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 
 const FrameComponent3 = ({
   className = "",
-  propPadding,
-  propBackgroundColor,
-  propBackgroundColor1,
-  propPadding1,
+  propPadding = "",
+  propBackgroundColor = "",
+  propBackgroundColor1 = "",
+  propPadding1 = "",
 }) => {
   const morningSlotsStyle = useMemo(() => {
     return {
